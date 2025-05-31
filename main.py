@@ -18,7 +18,7 @@ savings = total_income - total_expense
 
 st.title("SmartCents")
 
-st.write("## ➕ Add New Expense or Income")
+st.write("##  Add New Expense or Income")
 
 with st.form("entry_form", clear_on_submit=True):
     date = st.date_input("Date")
