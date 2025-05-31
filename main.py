@@ -47,9 +47,9 @@ if submitted:
 st.write(" ## Expense Overview")
 st.dataframe(df)
 
-st.write(f"**Total Income  :** LKR {total_income}")
-st.write(f"**Total Expenses  :** LKR {total_expense}")
-st.write(f"**Total Savings  :** LKR {savings}")
+st.write(f"**Total Income  :** LKR {total_income:.2f}")
+st.write(f"**Total Expenses  :** LKR {total_expense:.2f}")
+st.write(f"**Total Savings  :** LKR {savings:.2f}")
 
 if st.button(" Show Pie Chart"):
     plot_expenses_by_category(expense_df)

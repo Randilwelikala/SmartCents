@@ -13,4 +13,4 @@ def forecast_expenses(expense_df):
     future_day = [[max(df['Day']) + 1]]
     prediction = model.predict(future_day)
     
-    return f"Predicted expense for day {future_day[0][0]}: ${prediction[0]:.2f}"
+    return f"Predicted expense for the next day : {prediction[0]:.2f}"
