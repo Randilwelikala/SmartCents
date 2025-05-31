@@ -95,7 +95,7 @@ Date,Category,Description,Amount
   
 - Expense overview table
   ![](images/table.png)
-  ![](images/total.png)
+  
   
 - Pie chart visualization
   ![](images/pie.png)
@@ -105,6 +105,7 @@ Date,Category,Description,Amount
   
 - Forecast and Advice output
   ![](images/forecast.png)
+  ![](images/advice.png)
 
 ---
 
